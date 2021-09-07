@@ -23,7 +23,7 @@ body{
 
 }
 
-#logo{
+#logonav{
     width: 118px;
     height: 30px;
     display: flex;
@@ -36,18 +36,18 @@ body{
     justify-content: center;
 }
 
-#container-menu{
+#caja-menu{
     display: flex;
 }
 
 
-#menu ul{
+#nav ul{
     display: flex;
     height: 59px;
     align-items: center;
 }
 
-#menu ul li{
+#nav ul li{
     width: 100px;
     height: 59px;
     display: flex;
@@ -57,18 +57,18 @@ body{
     justify-content: center;
 }
 
-#menu ul li:first-child{
+#nav ul li:first-child{
     background-color: #E5E9F2;
 
 }
 
-#menu ul li a {
+#nav ul li a {
     text-decoration: none;
     text-align: center;
     color: #47525E;
 }
 
-#menu ul li:first-child a{
+#nav ul li:first-child a{
     color: #00A6FF;
 }
 
@@ -83,11 +83,11 @@ body{
 
 #lupa > img {
 
-        width: 18px;
-        height: 18px;
+    width: 18px;
+    height: 18px;
 }
 
-.bar_container{
+.pro_container{
     width: 407px;
     height: 8px;
     background-color: #E5E9F2;
@@ -95,13 +95,13 @@ body{
     margin-bottom: 12px;
 }
 
-.bar_progress{
+.pro_progress{
     width: 159px;
     height: 8px;
     background-color: #8190A5;
 }   
 
-#container_description_developer{
+#description_developer{
     width: 100%;
     display: flex;
     justify-content: start;
@@ -115,11 +115,11 @@ body{
     margin-left: 97px;
 }
 
-.container_description{
+.description{
     width: 873px;
 }
 
-.container_description > p {
+.description > p {
     width: 873px;
     color: #8190A5;
     font-family: Lato;
@@ -129,11 +129,11 @@ body{
       
 }
 
-.container_description h2 {
+.description h2 {
     text-transform: uppercase;
 }
 
-.container_description .title{
+.description .title{
     width: 374px;
     color: #47525E;
     font-size: 28px;
@@ -142,7 +142,7 @@ body{
     margin-bottom: 20px;
 }
 
-.container_description .subtitle{
+.description .subtitle{
     color: #47525E;
     font-family: Lato;
     font-size: 24px;
@@ -153,21 +153,21 @@ body{
 }
 
 
-.container_description .barra{
+._description .barra{
     width: 768px;
     height: 2px;
     background-color: #00A6FF;
     margin-bottom: 42px;
 }
 
-#container_habilities{
+#container_habilidades{
     width: 100%;
     margin-top: 83px;
     margin-left: 97px;
     margin-bottom: 77px;
 }
 
-#container_habilities h2 {
+#container_habilidades h2 {
     width: 396px;
     height: 34px;
     color: #47525E;
@@ -178,7 +178,7 @@ body{
 }
 
 
-#container_habilities  .barra {
+#container_habilidades .barra {
     width: 1190px;
     height: 3px;
     background-color: #00A6FF;
@@ -186,7 +186,7 @@ body{
 
 }
 
-#container_habilities_items{
+#container_habilidades_items{
     width: 1229px;
     display: flex;
 }
@@ -206,14 +206,14 @@ body{
     margin-bottom: 20px;
   }
 
-.habilites_item1 {
+.habilidades-item1 {
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     margin-bottom: 10px;
 }
 
-.habilites_item1 > .bar_container{
+.habilidades-item1 > .bar_container{
     width: 590px;
     background-color: rgb(204, 218, 217);
     height: 8px;
@@ -221,7 +221,7 @@ body{
     margin-bottom: 20px;
 }
 
-.habilites_item1  .bar_progress{
+.habilidades-item1 .bar_progress{
     width: 511px;
     background-color: #00A6FF;
     height: 8px;
@@ -240,7 +240,7 @@ ul{
 	list-style: none;
 }
 
-#Container_jobs{
+#Container_photo{
     width: 1440px;
     height: 759px;
     display: flex;
@@ -250,7 +250,7 @@ ul{
 
 }
 
-.Container_card{
+.Container_descri{
     width: 376px;
     height: 555px;
     display: flex;
@@ -276,7 +276,7 @@ ul{
     margin-bottom: 35px;
 }
 
-.Container_card p{
+.Container_descri p{
     color: #8190A5;
     font-family: Lato;
     font-size: 18px;
@@ -302,14 +302,6 @@ ul{
     
 }  
 
-/* .rectan{
-    background-color: #8190A5;
-    border-radius: 5px;
-    width: 142px;
-    height: 30px;
-    margin: 25px;
-    
-  } */
 .footer-col h4{
 	font-size: 18px;
 	color: #F7F7F7;
