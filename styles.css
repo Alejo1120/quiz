@@ -297,7 +297,8 @@ footer {
   font-weight: 500;
   position: relative;
 }
-.footer ul {
+
+footer ul {
   margin-right: 30px;
   margin-left: 150px;
 }
